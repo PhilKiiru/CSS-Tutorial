@@ -1,15 +1,39 @@
-
+/* External CSS */
 body {
-        background-color: black;
+        background-color: #111111;
 }
 h1 {
-        color: white;
+        color: #FFFFFF;
+        /* you can list more than 1 font family just incase the 1st one does not work, the web browser will use the 2nd one ...*/
+        font-family: "Press Start 2P", "consolas", sans-serif;
 }
       
 p {
-        background-color: gray;
-        color: white;
+        color: #00FF73;
+        /* to change the font family */
+        /* you can add 2 fonts like the "consolas" and in case the web browser doesn't support it, it will use the second font */
+        font-family: "consolas", sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        /* cyan - change the color of the text decoration */
+        text-decoration: cyan dotted underline;
+        font-size: 18px;
 }
+
+
+
+
+/* Styling a specific paragraph with a unique ID 
 #p1 {
-        color:tomato;
+       color: tomato;
 }
+ */
+
+/* . is targetting elements by the class 
+.odd {
+        color: red;
+}
+.even {
+        color: blue;
+} 
+*/
