@@ -1,4 +1,4 @@
-<!-- External css 
+
 body {
         background-color: black;
 }
@@ -9,4 +9,7 @@ h1 {
 p {
         background-color: gray;
         color: white;
+}
+#p1 {
+        color:tomato;
 }
