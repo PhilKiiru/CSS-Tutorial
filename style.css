@@ -1,24 +1,29 @@
 /* External CSS */
+/*
 body {
         background-color: #111111;
-}
+}*/
+
+/*
 h1 {
         color: #FFFFFF;
-        /* you can list more than 1 font family just incase the 1st one does not work, the web browser will use the 2nd one ...*/
+        /* you can list more than 1 font family just incase the 1st one does not work, the web browser will use the 2nd one ...
         font-family: "Press Start 2P", "consolas", sans-serif;
-}
+} */
       
+/* fonts
 p {
         color: #00FF73;
-        /* to change the font family */
-        /* you can add 2 fonts like the "consolas" and in case the web browser doesn't support it, it will use the second font */
+        /* to change the font family 
+        /* you can add 2 fonts like the "consolas" and in case the web browser doesn't support it, it will use the second font 
         font-family: "consolas", sans-serif;
         font-style: italic;
         font-weight: bold;
-        /* cyan - change the color of the text decoration */
+        /* cyan - change the color of the text decoration 
         text-decoration: cyan dotted underline;
         font-size: 18px;
-}
+} 
+*/
 
 
 
@@ -37,3 +42,50 @@ p {
         color: blue;
 } 
 */
+
+
+
+/* Border properties
+h1{
+        border-top-style: dotted;
+        border-bottom-style: dotted;
+        border-left-style: double;
+        border-left-width: 10px;
+        border-left-color: silver;
+}
+
+
+p{
+        border-style: solid;
+        border-width: 5px;
+        border-color: gold;
+        /* The higher the number the smoother the border will be 
+        border-radius: 10px;
+        /* Spacing btw letters and border 
+        padding: 5px;
+} */
+
+body{
+        background-image: url(myBackground.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      
+}
+h1{
+        /* you can add 2 or more colours to the background and Change the direction in wwhich the colors head (to right- the blue is on the right and white is on the left side  */
+       background: linear-gradient(to right, skyblue,white);
+       /* avoids the above background to repeat itself once i treaches the element  */
+       background-repeat: no-repeat;
+       /* Stretching the above background: resizes the page window which can adjust to any form */
+       background-attachment: fixed;       
+}
+
+p{
+        /* you can add 2 or more colours to the background and Change the direction in wwhich the colors head (to right- the blue is on the left and white is on the right side  */
+       background: linear-gradient(to left, skyblue,white);
+       /* avoids the above background to repeat itself once i treaches the element  */
+       background-repeat: no-repeat;
+       /* Stretching the above background: resizes the page window which can adjust to any form */
+       background-attachment: fixed;       
+}
