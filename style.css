@@ -65,27 +65,55 @@ p{
         padding: 5px;
 } */
 
+/* Background properties
+
 body{
         background-image: url(myBackground.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
+        /* The image to expand and shrink to fit the page window 
+        background-size: cover;
       
 }
 h1{
-        /* you can add 2 or more colours to the background and Change the direction in wwhich the colors head (to right- the blue is on the right and white is on the left side  */
+        /* you can add 2 or more colours to the background and Change the direction in wwhich the colors head (to right- the blue is on the right and white is on the left side 
        background: linear-gradient(to right, skyblue,white);
-       /* avoids the above background to repeat itself once i treaches the element  */
+       /* avoids the above background to repeat itself once i treaches the element  
        background-repeat: no-repeat;
-       /* Stretching the above background: resizes the page window which can adjust to any form */
+       /* Stretching the above background: resizes the page window which can adjust to any form 
        background-attachment: fixed;       
 }
 
 p{
-        /* you can add 2 or more colours to the background and Change the direction in wwhich the colors head (to right- the blue is on the left and white is on the right side  */
+        /* you can add 2 or more colours to the background and Change the direction in wwhich the colors head (to right- the blue is on the left and white is on the right side 
        background: linear-gradient(to left, skyblue,white);
-       /* avoids the above background to repeat itself once i treaches the element  */
+       /* avoids the above background to repeat itself once i treaches the element  
        background-repeat: no-repeat;
-       /* Stretching the above background: resizes the page window which can adjust to any form */
+       /* Stretching the above background: resizes the page window which can adjust to any form 
        background-attachment: fixed;       
+} */
+
+
+/* Padding is the space btw the content and the border of an element & it's easily confused with margin which is the space outside the border */
+body{
+        /*Margin is touching the sides of our viewport */
+        margin: 0px;
+}
+
+#box1{
+        border: 5px solid;
+        width: 250px;
+        height: 250px;
+        font-size: 22px;
+        background-color: greenyellow;
+        /* this element along with any elements underneath it will be pushed down by 50 pixels */ 
+        margin: 50px;
+}
+#box2{
+        border:5px solid;
+        width: 250px;
+        height: 250px;
+        font-size: 22px;
+        background-color: dodgerblue
 }
