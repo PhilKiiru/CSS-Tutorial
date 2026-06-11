@@ -94,10 +94,10 @@ p{
        background-attachment: fixed;       
 } */
 
-
-/* Padding is the space btw the content and the border of an element & it's easily confused with margin which is the space outside the border */
+/* Margin properties
+/* Padding is the space btw the content and the border of an element & it's easily confused with margin which is the space outside the border 
 body{
-        /*Margin is touching the sides of our viewport */
+        /*Margin is touching the sides of our viewport 
         margin: 0px;
 }
 
@@ -107,8 +107,18 @@ body{
         height: 250px;
         font-size: 22px;
         background-color: greenyellow;
-        /* this element along with any elements underneath it will be pushed down by 50 pixels */ 
-        margin: 50px;
+
+        /* this element along with any elements underneath it will be pushed down by 50 pixels 
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+
+        /* this will push the element to the right by 50% of the page width and also push it down by 50% of the page height
+        margin: 50%; 
+        
+        /* Use margin auto instead of the above margins to center the element horizontally in the page 
+        margin-right: auto;
+        margin-left: auto;
 }
 #box2{
         border:5px solid;
@@ -116,4 +126,5 @@ body{
         height: 250px;
         font-size: 22px;
         background-color: dodgerblue
-}
+} 
+*/
